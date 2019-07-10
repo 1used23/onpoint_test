@@ -4,7 +4,7 @@ let touchEndY;
 let currentSlide = 0;
 
 const update = function(state){
-// 	document.getElementById('scroll-down').style.display = "table";
+ 	document.getElementById('scroll-down').style.display = "table";
 	document.querySelector('.nav__0').style.backgroundColor = 'white';
 	document.querySelector('.nav__1').style.backgroundColor = 'white';
 	document.querySelector('.nav__2').style.backgroundColor = 'white';
