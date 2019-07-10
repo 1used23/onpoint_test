@@ -103,21 +103,10 @@ body {
 	background-image: url('images/scoll_down.png');
 	background-repeat: no-repeat;
 	bottom: -153px;
-	transition: 1s;
-	animation-duration: .5s;
-/* 	animation: pass-out .9s infinite;
- */}
-
-@keyframes pass-out {
-	0% {
-		opacity: 1;
-	}
-
-	100% {
-		opacity: 0;
-		display: none;
-		visibility: hidden;
-	}
+	-webkit-transition: opacity 1s ease-in-out;
+  	-moz-transition: opacity 1s ease-in-out;
+ 	 -o-transition: opacity 1s ease-in-out;
+ 	 transition: opacity .5s ease-in-out;
 }
 
 .pulse {
