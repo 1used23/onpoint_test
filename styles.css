@@ -1,17 +1,19 @@
 @font-face {
-    font-family: GothamPro; /* Гарнитура шрифта */
-    src: url(fonts/GothamPro.eot); /* Для IE5-8 */
-    src: local(GothamPro), url('fonts/GothamPro.ttf'); /* Для остальных браузеров */
+    font-family: GothamPro;
+    src: url('fonts/GothamPro.eot');
+    src: local(GothamPro), url('fonts/GothamPro.ttf');
 }
 
 @font-face {
-font-family: GothamProLight;
-src: url('/fonts/GothamProLight.ttf') format("opentype");
+	font-family: GothamProLight;
+	src: url('/fonts/GothamProLight.ttf') format("opentype");
+	src: local(GothamProLight), url('fonts/GothamProLight.ttf');
 }
 
 @font-face {
-font-family: LatoRegular;
-src: url('/fonts/LatoRegular.ttf') format("opentype");
+	font-family: LatoRegular;
+	src: url('/fonts/LatoRegular.ttf') format("opentype");
+	src: local(LatoRegular), url('fonts/LatoRegular.ttf');
 }
 
 body {
@@ -145,7 +147,7 @@ body {
 .wrap {
 	position: relative;
 	border-radius: 50%;
-	border: 1px solid #cf1538;
+	border: 2px solid #cf1538;
 }
 
 
