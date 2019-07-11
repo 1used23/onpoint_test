@@ -5,13 +5,14 @@ const nav_2 = document.querySelector('.nav__2');
 let touchStartY;
 let touchEndY;
 let currentSlide = 0;
+let currentNav = document.querySelector('.nav__' + currentSlide);
 
 const update = function(currentSlide) {
 	nav_0.style.backgroundColor = 'white';
 	nav_1.style.backgroundColor = 'white';
 	nav_2.style.backgroundColor = 'white';
   	slideWrapper.style.transform = `translateY(-${currentSlide*768}px)`;
-	document.querySelector('.nav__' + currentSlide).style.backgroundColor = '#f78b1f';
+	currentNav.style.backgroundColor = '#f78b1f';
 
 	 if (currentSlide == 2) {
 	 	document.getElementById('scroll-down').style.opacity = 0;
